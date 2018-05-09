@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.almundo</OriginalElement>
+  <nodes>
+    <node x="96.55422776148583" y="635.0">com.almundo.Director</node>
+    <node x="348.9988269794722" y="1222.0">com.almundo.DispatcherTest</node>
+    <node x="14.382062561094813" y="745.0">com.almundo.Dispatcher</node>
+    <node x="114.99452590420339" y="0.0">com.almundo.ClientDSP</node>
+    <node x="325.55422776148583" y="635.0">com.almundo.Supervisor</node>
+    <node x="208.55422776148583" y="635.0">com.almundo.Operator</node>
+    <node x="577.9988269794723" y="0.0">com.almundo.NotFound</node>
+    <node x="160.71119257087003" y="147.0">com.almundo.Call</node>
+    <node x="270.0988269794723" y="392.0">com.almundo.Employee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.almundo.Operator" target="com.almundo.Employee">
+      <point x="-24.25" y="-15.0" />
+      <point x="232.80422776148583" y="605.0" />
+      <point x="320.5988269794723" y="605.0" />
+      <point x="-50.5" y="81.5" />
+    </edge>
+    <edge source="com.almundo.Supervisor" target="com.almundo.Employee">
+      <point x="-26.25" y="-15.0" />
+      <point x="351.80422776148583" y="615.0" />
+      <point x="360.99882697947226" y="615.0" />
+      <point x="-10.100000000000023" y="81.5" />
+    </edge>
+    <edge source="com.almundo.Dispatcher" target="com.almundo.Director">
+      <point x="-2.8421709430404007E-14" y="-213.5" />
+      <point x="154.38206256109478" y="725.0" />
+      <point x="142.55422776148583" y="725.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.almundo.DispatcherTest" target="com.almundo.Employee">
+      <point x="0.0" y="-37.0" />
+      <point x="440.9988269794722" y="1192.0" />
+      <point x="481.2945259042034" y="1192.0" />
+      <point x="481.2945259042034" y="575.0" />
+      <point x="461.99882697947214" y="575.0" />
+      <point x="90.89999999999992" y="81.5" />
+    </edge>
+    <edge source="com.almundo.Employee" target="com.almundo.Call">
+      <point x="0.0" y="-81.5" />
+      <point x="371.0988269794723" y="372.0" />
+      <point x="275.0445259042034" y="372.0" />
+      <point x="16.33333333333337" y="92.5" />
+    </edge>
+    <edge source="com.almundo.ClientDSP" target="com.almundo.Call">
+      <point x="68.40000000000003" y="48.5" />
+      <point x="268.8945259042034" y="127.0" />
+      <point x="324.04452590420334" y="127.0" />
+      <point x="65.33333333333331" y="-92.5" />
+    </edge>
+    <edge source="com.almundo.DispatcherTest" target="com.almundo.Call">
+      <point x="36.80000000000001" y="-37.0" />
+      <point x="477.7988269794722" y="1202.0" />
+      <point x="492.2945259042034" y="1202.0" />
+      <point x="492.2945259042034" y="362.0" />
+      <point x="307.71119257087" y="362.0" />
+      <point x="49.0" y="92.5" />
+    </edge>
+    <edge source="com.almundo.Director" target="com.almundo.Employee">
+      <point x="-23.0" y="-15.0" />
+      <point x="119.55422776148583" y="585.0" />
+      <point x="280.1988269794723" y="585.0" />
+      <point x="-90.89999999999998" y="81.5" />
+    </edge>
+    <edge source="com.almundo.Dispatcher" target="com.almundo.Supervisor">
+      <point x="50.90909090909088" y="-213.5" />
+      <point x="205.2911534701857" y="695.0" />
+      <point x="378.05422776148583" y="695.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.almundo.Dispatcher" target="com.almundo.Call">
+      <point x="-50.90909090909091" y="-213.5" />
+      <point x="103.4729716520039" y="705.0" />
+      <point x="59.0" y="705.0" />
+      <point x="59.0" y="362.0" />
+      <point x="209.71119257087003" y="362.0" />
+      <point x="-49.0" y="92.5" />
+    </edge>
+    <edge source="com.almundo.Dispatcher" target="com.almundo.Operator">
+      <point x="25.45454545454541" y="-213.5" />
+      <point x="179.83660801564022" y="685.0" />
+      <point x="257.05422776148583" y="685.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.almundo.DispatcherTest" target="com.almundo.Dispatcher">
+      <point x="-73.60000000000002" y="-37.0" />
+      <point x="367.3988269794722" y="1202.0" />
+      <point x="84.38206256109481" y="1202.0" />
+      <point x="-70.0" y="213.5" />
+    </edge>
+    <edge source="com.almundo.Dispatcher" target="com.almundo.Employee">
+      <point x="127.27272727272722" y="-213.5" />
+      <point x="281.65478983382206" y="725.0" />
+      <point x="464.180889540567" y="725.0" />
+      <point x="464.180889540567" y="585.0" />
+      <point x="441.7988269794722" y="585.0" />
+      <point x="70.69999999999993" y="81.5" />
+    </edge>
+    <edge source="com.almundo.Call" target="com.almundo.ClientDSP">
+      <point x="-65.33333333333331" y="-92.5" />
+      <point x="193.3778592375367" y="127.0" />
+      <point x="200.49452590420339" y="127.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="com.almundo.ClientDSP" target="com.almundo.Dispatcher">
+      <point x="-34.19999999999999" y="48.5" />
+      <point x="166.2945259042034" y="127.0" />
+      <point x="37.0" y="127.0" />
+      <point x="37.0" y="725.0" />
+      <point x="52.56388074291303" y="725.0" />
+      <point x="-101.81818181818178" y="-213.5" />
+    </edge>
+    <edge source="com.almundo.Employee" target="com.almundo.Dispatcher">
+      <point x="50.49999999999994" y="81.5" />
+      <point x="421.59882697947216" y="595.0" />
+      <point x="453.180889540567" y="595.0" />
+      <point x="453.180889540567" y="715.0" />
+      <point x="256.20024437927657" y="715.0" />
+      <point x="101.81818181818178" y="-213.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="167.0" y="165.0" />
+  <SelectedNodes>
+    <node>com.almundo.Dispatcher</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
